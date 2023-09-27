@@ -27,7 +27,9 @@ public class Cuenta {
 	double saldo;
 	int agencia;
 	int  numero;
-	String titular;
+	
+	//Con el siguiente atributo, "vamos a referenciar objeto Cuenta con objeto Cliente";
+	Cliente titular;
 	
 	//Metodos:
 	
@@ -83,7 +85,7 @@ public class Cuenta {
 			 this.saldo -= valor;
 //Puede ser asi-> cuenta.saldo = cuenta.saldo + valor; pero, mejor con nuestro metodo depositar();
 			 cuenta.depositar(valor);
-			 System.out.println(this.titular + " su saldo actual es de: " + this.saldo);
+			 System.out.println("Su saldo actual es de: " + this.saldo);
 			 System.out.println("Su transferencia fue exitosa");
 			 return true;
 			 

@@ -4,7 +4,7 @@ public class PruebaMetodos {
 	public static void main(String[] args) {
 		Cuenta miCuenta = new Cuenta();
 		Cuenta cuentaDeXimena = new Cuenta();
-		cuentaDeXimena.titular = "Ximena";
+		
 		
 		//Aqui incrementamos 300 a mi saldo:
 		miCuenta.saldo = 300;
