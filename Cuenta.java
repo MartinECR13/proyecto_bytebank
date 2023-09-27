@@ -30,6 +30,14 @@ public class Cuenta {
 	
 	//Con el siguiente atributo, "vamos a referenciar objeto Cuenta con objeto Cliente";
 	Cliente titular;
+	//Ahora fijate lo vamos a inicializar por defecto:
+	//Cliente titular = new Cliente;
+	
+	//Con esta accion, una vez instanciado un nuevo objeto Cuenta;
+	//Por defecto, estaremos instanciando un nuevo objeto Cliente;
+	//Y nos ahorraremos estar referenciando como en los ejemplos: TestReferencia 1,2,3,4;
+	
+	//Abrire un proyecto JAVA, con los nuevos cambios. Para que quede mas claro.
 	
 	//Metodos:
 	
